@@ -1,29 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #1C3D3A; /* Fundo mais escuro (verde mais escuro) */
-    --primary-color: #FFFFFF; /* Branco */
-    --secondary-color: #7FDBFF; /* Verde água mais destacado */
+    --bg-color: #1A2A26; /* Cor de fundo mais escura (verde mais escuro) */
+    --primary-color: #FFFFFF; /* Cor branca para o texto */
+    --secondary-color: #7FDBFF; /* Verde água para destaque */
+    --highlight-color: #7FDBFF; /* Verde água para detalhes e textos importantes */
     --font: "Nunito Sans", sans-serif;
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--primary-color);
+    background-color: var(--bg-color); /* Cor de fundo */
+    color: var(--primary-color); /* Cor do texto */
     font-family: var(--font);
     height: 100vh;
     margin: 0;
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color); /* Cabeçalho branco */
     text-align: center;
-    padding: 1px;
+    padding: 1rem;
 }
 
 h1 {
     font-size: 2rem;
-    color: var(--secondary-color); /* Título em verde água */
+    color: var(--highlight-color); /* Título em verde água */
     font-weight: 700;
 }
 
@@ -35,7 +36,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--secondary-color); /* Links em verde água */
+    color: var(--highlight-color); /* Links em verde água */
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
@@ -58,22 +59,24 @@ nav a:hover {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
-    border: var(--secondary-color) solid 2px;
+    border: 2px solid var(--highlight-color); /* Borda em verde água */
+    color: var(--primary-color); /* Texto dentro da caixa em branco */
 }
 
 span {
     font-weight: bold;
-    color: var(--secondary-color); /* Texto em verde água */
+    color: var(--highlight-color); /* Texto em verde água para destaque */
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-color);
-    color: var(--bg-color);
+    background-color: var(--primary-color); /* Cor de fundo do rodapé */
+    color: var(--bg-color); /* Cor do texto no rodapé */
     width: 100%;
     height: 3rem;
     margin-top: 2rem;
 }
+
 
