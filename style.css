@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #1C3D3A; /* Cor de fundo mais escura (verde mais escuro) */
+    --bg-color: #1A2A26; /* Cor de fundo mais escura (verde mais escuro) */
     --primary-color: #FFFFFF; /* Cor branca para o texto */
     --secondary-color: #7FDBFF; /* Verde água para destaque */
     --highlight-color: #7FDBFF; /* Verde água para detalhes e textos importantes */
