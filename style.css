@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #7FDBFF; /* Verde água */
+    --bg-color: #1C3D3A; /* Fundo mais escuro (verde mais escuro) */
     --primary-color: #FFFFFF; /* Branco */
-    --secondary-color: #A8D0E6; /* Azul pastel */
+    --secondary-color: #7FDBFF; /* Verde água mais destacado */
     --font: "Nunito Sans", sans-serif;
 }
 
@@ -23,7 +23,7 @@ header {
 
 h1 {
     font-size: 2rem;
-    color: var(--bg-color);
+    color: var(--secondary-color); /* Título em verde água */
     font-weight: 700;
 }
 
@@ -35,7 +35,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--bg-color);
+    color: var(--secondary-color); /* Links em verde água */
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
@@ -63,7 +63,7 @@ nav a:hover {
 
 span {
     font-weight: bold;
-    color: var(--secondary-color);
+    color: var(--secondary-color); /* Texto em verde água */
 }
 
 footer {
@@ -76,3 +76,4 @@ footer {
     height: 3rem;
     margin-top: 2rem;
 }
+
